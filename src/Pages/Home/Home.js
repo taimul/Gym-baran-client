@@ -1,6 +1,8 @@
 import React from 'react';
 import Challenges from '../Challenges/Challenges';
 import Hero from '../Hero/Hero';
+import Workout1 from '../Workout1/Workout1';
+import Workout2 from '../Workout2/Workout2';
 import './Home.css';
 
 const Home = () => {
@@ -12,8 +14,8 @@ const Home = () => {
                 <div className='description-text lg:mt-4'> <p>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day</p></div>
             </div>
             <Challenges/>
-            {/* <Workout1/> */}
-            {/* <Workout2/> */}
+            <Workout1/>
+            <Workout2/>
             {/* <WorkPlan/> */}
             {/* <Programs/> */}
             {/* <Testimonials/> */}
