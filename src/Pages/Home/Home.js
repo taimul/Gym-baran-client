@@ -1,8 +1,11 @@
 import React from 'react';
 import Challenges from '../Challenges/Challenges';
 import Hero from '../Hero/Hero';
+import Programs from '../Programs/Programs';
+import Testimonials from '../Testimonials/Testimonials';
 import Workout1 from '../Workout1/Workout1';
 import Workout2 from '../Workout2/Workout2';
+import WorkPlan from '../WorkPlan/WorkPlan';
 import './Home.css';
 
 const Home = () => {
@@ -16,9 +19,9 @@ const Home = () => {
             <Challenges/>
             <Workout1/>
             <Workout2/>
-            {/* <WorkPlan/> */}
-            {/* <Programs/> */}
-            {/* <Testimonials/> */}
+            <WorkPlan/>
+            <Programs/>
+            <Testimonials/>
         </div>
     );
 };
