@@ -5,7 +5,7 @@ import icon from "../../Assets/Group 3799.png";
 const Testimonials = () => {
     return (
         <div className="mb-[120px]">
-            <div className="w-[558px] lg:text-center lg:text-[46px] text-[28px]  text-[#262524] mx-auto mb-[40px] lg:mb-[50px]">
+            <div className="lg:w-[558px] lg:text-center lg:text-[46px] text-[28px]  text-[#262524] mx-auto mb-[40px] lg:mb-[50px]">
                 <h1 className="font-face-sport ">Testimonials</h1>
             </div>
             <div className="lg:flex lg:justify-between">
