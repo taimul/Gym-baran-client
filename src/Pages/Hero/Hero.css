@@ -1,0 +1,35 @@
+.get-started-btn {
+    width: 246px;
+    height: 56px;
+    left: 82px;
+    top: 553px;
+    background: #264373;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+}
+
+.learn-btn {
+    width: 174px;
+    height: 56px;
+    left: 363px;
+    top: 553px;
+    color: #264373;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+}
+
+.text-area {
+    height: 581.94px;
+    margin-top: 85px;
+}
+@media screen and (max-width: 690px){
+    .get-started-btn {
+        width: 180px;
+        height: 56px;
+        background: #264373;
+        box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+        border-radius: 10px;
+        font-size: 12px;
+    }
+}

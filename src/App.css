@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.font-face-sport{
+  font-family: "Sporting Grotesque";
+}
 
 .App-logo {
   height: 40vmin;

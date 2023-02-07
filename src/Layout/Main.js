@@ -5,7 +5,7 @@ import Header from '../Shared/Header/Header';
 
 const Main = () => {
     return (
-        <div>
+        <div className='lg:w-[1440px] m-auto'>
             <Header/>
             <Outlet/>
             <Footer/>

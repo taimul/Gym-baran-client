@@ -1,0 +1,48 @@
+.logo {
+    /* position: absolute; */
+    width: 67px;
+    height: 38px;
+    left: 95px;
+    top: 48px;
+    color: white;
+    background: #6765F0;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+.logo-text{
+    /* position: absolute; */
+   
+
+font-family: 'Sporting Grotesque';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+}
+.text{
+width: 69px;
+height: 33px;
+left: 167px;
+top: 51px;
+font-family: 'Sporting Grotesque';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+color: #6765F0;
+}
+
+.login-btn {
+    background-color: rgba(38, 67, 115, 1);
+    height: 50px;
+    width: 114px;
+    left: 1227px;
+    top: 42px;
+    border-radius: 10px;
+
+}
+.header{
+    margin-top: 42px;
+}

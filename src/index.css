@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  /* background-image: url(./Assets/bg.png);
+  background-repeat: no-repeat; */
+  /* width: 1440px; */
+  background: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Sporting Grotesque";   /*Can be any text*/
+  src: local("Sporting Grotesque"),
+    url("./Fonts/Sporting-Grotesque.ttf") format("truetype");
+}
