@@ -22,7 +22,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <p className="text-black mt-[51px]">Brands:</p>
-                    <img className='lg:w-2/3 w-[310px] ' src={icon1} alt="" />
+                    <img className='lg:w-3/5 w-[310px] ' src={icon1} alt="" />
                 </div>
                 <img src={image} className="w-full lg:h-[584px] rounded-lg image-card" />
             </div>

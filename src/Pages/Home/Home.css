@@ -1,0 +1,48 @@
+.description-text{
+    width: 674px;
+    height: 112px;
+    left: 662px;
+    top: 896px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    letter-spacing: 0.01em;
+    
+    color: #262524;
+    
+    opacity: 0.5;
+}
+
+/* @media screen and (max-width: 768px) {
+    
+} */
+@media screen and (max-width: 768px) {
+    .description-text{
+        width: 327px;
+height: 132px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 180%;
+/* or 22px */
+
+letter-spacing: 0.01em;
+
+color: #262524;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+}
