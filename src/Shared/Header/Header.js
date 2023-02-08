@@ -4,7 +4,7 @@ import { HiMenu } from "react-icons/hi";
 
 const Header = () => {
     return (
-        <div className="navbar flex justify-between">
+        <div className="navbar flex justify-between lg:w-[1440px] m-auto">
             <div className="navbar-start">
                 
                 <a className="normal-case text-xl logo"><span className='logo-text'>Gym</span></a>

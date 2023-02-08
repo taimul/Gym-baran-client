@@ -7,7 +7,7 @@ const WorkPlan = () => {
         <div className='lg:grid lg:grid-cols-2  lg:mt-[140px] mt-[120px] lg:mb-[120px] flex flex-col-reverse'>
             <div><img className=' h-[444px]' src={card} alt="" /></div>
             <div>
-                <div><h1 className='lg:text-[46px] text-[28px] font-face-sport text-[#262524]'>How its works?</h1></div>
+                <div><h1 className='lg:text-[46px] text-[28px] font-face-sport text-[#262524] mb-8'>How its works?</h1></div>
                 <div className='card'>
                     <a className='carousel'><h1 className='carousel-text'>The body becomes sick because of rarely exercise</h1></a>
                 </div>

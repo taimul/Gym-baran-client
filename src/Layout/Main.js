@@ -6,7 +6,7 @@ import './Main.css';
 
 const Main = () => {
     return (
-        <div className='lg:w-[1440px] m-auto home-container'>
+        <div className='home-container'>
             <Header/>
             <Outlet/>
             <Footer/>

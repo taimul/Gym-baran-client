@@ -1,15 +1,18 @@
 import React from "react";
 import "./Testimonials.css";
 import icon from "../../Assets/Group 3799.png";
+import { CgQuote } from "react-icons/cg";
+
 
 const Testimonials = () => {
     return (
-        <div className="mb-[120px]">
+        <div className="">
             <div className="lg:w-[558px] lg:text-center lg:text-[46px] text-[28px]  text-[#262524] mx-auto mb-[40px] lg:mb-[50px]">
                 <h1 className="font-face-sport ">Testimonials</h1>
             </div>
             <div className="lg:flex lg:justify-between">
                 <div className="user-card lg:p-10 p-7 mb-[24px]">
+                {/* <CgQuote className="text-6xl"/> */}
                     <p className="t-text mb-[24px]">
                     It's great to be able to work out from home and be helped by the gymbaran. My day feels fresher when I regularly participate in this fun sport. Good luck to the coaches.
                     </p>
@@ -24,8 +27,8 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <div className="user-card lg:p-10 p-7">
-                    <p className="t-text mb-[24px]">
-                        exercise used to be a boring thing for me, but after following the
+                    <p className="t-text mb-[24px] flex">
+                    <CgQuote/>exercise used to be a boring thing for me, but after following the
                         gymbaran I became fond of sports and sports became my new hobby. I
                         participate in sports 5 times a week.
                     </p>

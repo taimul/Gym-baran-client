@@ -6,6 +6,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import Workout1 from '../Workout1/Workout1';
 import Workout2 from '../Workout2/Workout2';
 import WorkPlan from '../WorkPlan/WorkPlan';
+import { HiDotsHorizontal } from "react-icons/hi";
 import './Home.css';
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             <WorkPlan/>
             <Programs/>
             <Testimonials/>
+            <div className='flex justify-end dot-icon'><HiDotsHorizontal/></div>
         </div>
     );
 };
