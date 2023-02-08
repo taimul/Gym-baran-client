@@ -2,10 +2,11 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
+import './Main.css';
 
 const Main = () => {
     return (
-        <div className='lg:w-[1440px] m-auto'>
+        <div className='lg:w-[1440px] m-auto home-container'>
             <Header/>
             <Outlet/>
             <Footer/>

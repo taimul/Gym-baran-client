@@ -1,5 +1,6 @@
 .logo {
     /* position: absolute; */
+    margin-bottom: 5px;
     width: 67px;
     height: 38px;
     left: 95px;
@@ -10,28 +11,27 @@
     border-radius: 10px;
     text-align: center;
 }
-.logo-text{
-    /* position: absolute; */
-   
 
-font-family: 'Sporting Grotesque';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 33px;
-text-align: center;
+.logo-text {
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
 }
-.text{
-width: 69px;
-height: 33px;
-left: 167px;
-top: 51px;
-font-family: 'Sporting Grotesque';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 33px;
-color: #6765F0;
+
+.text {
+    width: 69px;
+    height: 33px;
+    left: 167px;
+    top: 51px;
+    font-family: 'Sporting Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #6765F0;
 }
 
 .login-btn {
@@ -42,7 +42,4 @@ color: #6765F0;
     top: 42px;
     border-radius: 10px;
 
-}
-.header{
-    margin-top: 42px;
 }

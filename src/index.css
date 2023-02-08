@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body{
-  /* background-image: url(./Assets/bg.png);
-  background-repeat: no-repeat; */
+  /* background-image: url(./Assets/bg.png); */
+  /* background-repeat: no-repeat;  */
   /* width: 1440px; */
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 @font-face {
